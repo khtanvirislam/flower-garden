@@ -4,6 +4,8 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+/* header related style */
+
 /* nav related styles */
 
 nav{
@@ -28,7 +30,14 @@ li a{
     text-decoration: none;
     color: white;
     font-size: 25px;
-    font-weight: 700;
+    font-weight: 600;
+    padding: 5px;
+}
+
+li a:hover{
+    color: rgb(54, 49, 49);
+    background-color: white;
+    border-radius: 5px;
     padding: 5px;
 }
 
@@ -37,4 +46,40 @@ li a{
     border-radius: 5px;
     padding: 10px;
     margin-bottom: 5px;
+}
+
+/* headaer section related style */
+
+.header-container{
+    background-color: rgb(245, 221, 224);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 600px;
+
+}
+
+.header-img{
+    height: 500px;
+    width: 400px;
+}
+
+.hader-title{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.header-desc{
+    margin-bottom: 15px;
+}
+
+.btn-primary{
+    margin-top: 10px;
+    background-color: rgb(238, 95, 95);
+    border: none;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
 }
