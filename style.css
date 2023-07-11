@@ -124,7 +124,7 @@ li a:hover{
 /* social media related styles */
 
 .social-media-container{
-    width:80%;
+    width: 1400px;
     margin: auto;
 }
 
@@ -138,7 +138,7 @@ li a:hover{
 .social-media-desc{
     margin-top: 10px;
     text-align: center;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
 .socail-media-img{
@@ -149,5 +149,47 @@ li a:hover{
 .socail-media-img-container{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 50px;
+}
 
+/* update related style */
+
+.update-related-container{
+    margin-top: 50px;
+    padding-top: 20px;
+    width: 1400px;
+    height: 450px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 7px;
+    margin: auto;
+    background-image: url('Flower Asset/Rectangle 9.png');   
+    background-repeat: no-repeat;
+
+}
+
+.input-email{
+    width: 700px;
+    height: 25px;
+    border-radius: 8px;
+    border: 3px solid lightcoral;
+    font-size: 15px;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.deals-header{
+    font-size: 40px;
+    font-weight: 800px;
+    margin-bottom: 10px;
+}
+
+.deals-desc{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.email-section{
+    padding-top: 150px;
+    
 }
