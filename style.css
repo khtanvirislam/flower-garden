@@ -91,13 +91,20 @@ li a:hover{
 
 .featured-flower-container{
     height: 100vh;
+    width: 70%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
 
 }
 
 .flower-headings{
-    margin-top: 100px;
-    text-align: center;
+    display: flex;
+    gap: 20px;
+}
 
+.pink-flower-box{
+    text-align: center;
 }
 
 .flower-heading-title{
@@ -108,10 +115,38 @@ li a:hover{
 .flower-heading-descp{
     font-size: 20px;
     color: rgb(45, 70, 70);
-
 }
 
+.featured-boxes{
+    margin-top: 100px;
+    height: 550px;
+    width: 450px;
+    background-color: lightpink;
+    border-radius: 330px 330px 0px 0px;
+}
 
+.red-flower-box{
+    background-color: rgb(167, 230, 209);
+}
+
+.yellow-flower-box{
+    background-color: rgb(247, 197, 154);
+}
+
+.flower-resiz{
+    height: 450px;
+    width: 320px;
+    padding-top: 80px;
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.flower-link{
+    font-size: 25px;
+    color: rgb(41, 37, 37);
+    text-align: center;
+    
+}
 
 
 /* this is hot-deal section */
