@@ -104,14 +104,20 @@ li a:hover{
     font-weight: 500;
 }
 
+.hot-deal-img{
+    height: 400px;
+    width: 300px;
+}
+
 .hot-deal-container{ 
-    margin-top: 50px;   
+    width: 80%;
+    margin: auto;   
     display: flex;
     justify-content: space-around;
-    text-align: center;
     align-items: center;
-    height: 400px;
-    margin-left: 20px;
+    height: 500px;
+    text-align: center;
+    
     
 }
 
@@ -125,19 +131,23 @@ li a:hover{
 .social-media-title{
     margin-top: 50px;
     padding-top: 20px;
-    font-size: 35px;
+    font-size: 30px;
     text-align: center;
     font-style:inherit;
 }
 .social-media-desc{
     margin-top: 10px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom:30px;
 }
 
-.social-media-img{
-    gap: 5px;
-    margin-left: 20px; 
+.socail-media-img{
+    height: 280px;
+    width: 280px;
 }
 
-/* img ke manush korte hobe. */
+.socail-media-img-container{
+    display: flex;
+    justify-content: space-around;
+
+}
