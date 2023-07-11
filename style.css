@@ -155,8 +155,7 @@ li a:hover{
 /* update related style */
 
 .update-related-container{
-    margin-top: 50px;
-    padding-top: 20px;
+    margin-top: 150px;
     width: 1400px;
     height: 450px;
     justify-content: center;
@@ -192,25 +191,32 @@ li a:hover{
 
 .email-section{
     padding-top: 120px;
-    
 }
 
 /* footer related design */
 
+footer{
+    text-align: center;
+    padding-top: 50px;
+}
 .footer-container{
     background-color: black;
     height: 450px;
-    width: 1920px;
+    width: 100%;
     color: white;
 }
+
 .footer-title{
     font-size: 35px;
-    text-align: center;
-    justify-content: center;
     padding-top: 120px;
 }
 
 .footer-desc{
-    text-align: center;
-    font-size: 15px;
+    font-size: 13px;
+    padding-top: 10px;
+}
+
+.copy-title{
+    font-size: 10px;
+    color: lightgrey;
 }
